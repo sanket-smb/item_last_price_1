@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include item_last_price *.css
+recursive-include item_last_price *.csv
+recursive-include item_last_price *.html
+recursive-include item_last_price *.ico
+recursive-include item_last_price *.js
+recursive-include item_last_price *.json
+recursive-include item_last_price *.md
+recursive-include item_last_price *.png
+recursive-include item_last_price *.py
+recursive-include item_last_price *.svg
+recursive-include item_last_price *.txt
+recursive-exclude item_last_price *.pyc

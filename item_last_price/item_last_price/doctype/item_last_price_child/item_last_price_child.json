@@ -1,0 +1,50 @@
+{
+ "creation": "2020-10-02 06:54:59.006979",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "last_sold_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_sold_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Last Sold Price",
+   "read_only": 1
+  }
+ ],
+ "modified": "2020-10-02 08:32:25.678962",
+ "modified_by": "Administrator",
+ "module": "Item Last Price",
+ "name": "Item Last Price Child",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
