@@ -32,7 +32,7 @@ fixtures=[
 # web_include_js = "/assets/item_last_price/js/item_last_price.js"
 
 # include js in page
-doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
+#doctype_js = {"Sales Invoice" : "public/js/sales_invoice.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
